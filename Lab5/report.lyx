@@ -1,0 +1,142 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lab 5: Moving Object Imaging
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+Linescan cameras are imaging devices that instead of the usual matrix-shaped
+ arrangement of pixels, have just a single row of them.
+ The lines are continuously fed to a computer that joins them to each other
+ and makes an image.
+ This is most commonly done by connecting the camera output to a frame grabber
+ which resides in a PCI slot of an industrial computer.[1]
+\end_layout
+
+\begin_layout Standard
+A line scan camera reads the image data one line at a time.
+ This means that it doesn't observe the image as a whole, but rather reviews
+ it precisely line by line.
+ This seamless recording style allows for inspections of over-long objects
+ or even endless webs of material.
+ These characteristics makeline scan cameras perfect for a variety of applicatio
+ns: The most common uses are quality assurance and sorting procedures.
+ Its applications include video surveilance systems, satellite imaging,
+ inspection of surfaces for flaws.
+ When used for inspection purposes, the camera is usually used along with
+ special software for detecting defects in materials(semeconductions, paper,
+ plastic, leather, etc.).
+\end_layout
+
+\begin_layout Standard
+Another common use is for postal sorting or reading out barcodes, QR codes,
+ lines of text and other codes.[2]
+\end_layout
+
+\begin_layout Section*
+Equipment and the setup
+\end_layout
+
+\begin_layout Section*
+Image acquisition with a linear camera
+\end_layout
+
+\begin_layout Standard
+With this type of camera, it is possible to estimate the speed of a moving
+ object, if we know its size and camera's line rate.
+\end_layout
+
+\begin_layout Section*
+Camera triggering by an external signal
+\end_layout
+
+\begin_layout Section*
+Conclusion
+\end_layout
+
+\begin_layout Section*
+References
+\end_layout
+
+\begin_layout Standard
+[1] - https://en.wikipedia.org/wiki/Digital_camera
+\end_layout
+
+\begin_layout Standard
+[2] - http://www.baslerweb.com/en/products/line-scan-cameras
+\end_layout
+
+\end_body
+\end_document
