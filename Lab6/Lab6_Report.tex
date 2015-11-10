@@ -16,14 +16,16 @@
 \maketitle
 
 \section*{Introduction}
+The objective of this lab work is to conduct 3D inspection with a compact vision system. The system used is based on a high-accuracy Laser Displacement Sensor.
+This kind of sensor can be used in measurements of heights at multiple points, width/gap on the surface profile, section area, intersections/angle measurements, etc. The Laser sensor head is able to measure surface profile of targets in X and Z directions. The height, width or gap on a surface profile can be measured using 28 measurement modes[1].
+Measuring range for the sensor head is 200$\pm$48 mm.
 
 \section*{Equipment and the setup}
+In this experiment we used the KEYENCE LJ-G 080 high-accuracy laser displacement sensor with its appropriate equipment and the provided software LJ-G Navigator.\\
+In preparation to the experiment, one important thing is to adjust the distance between camera and object. Different objects have different proper distances to the camera, as the laser beam must be well focused on the object. \\
 
 \section*{Step Measurement}
-
-Before starting to measure anything, one important thing is to adjust the distance between camera and object. Different objects has different proper distance to the camera. \\
-
-Once acquiring a good profile of the measured object, we just go to "Master reg" part to keep this profile. In order to measure the step height of an object, firstly, in the "OUT setting", measurement type should be changed to "Step" mode. And then we should put two regions of interest in the profile, one in the peak and the other in the valley. This can be show from Figure \ref{fig:one}.\\
+Once the height of the sensor is properly adjusted and the laser is focused a good profile of the used object is visible on the screen. To save the profile of the measured object, we go to "Master reg" part to register this profile. In order to measure the step height of an object, first, in the "OUT setting", measurement type should be changed to "Step" mode. And then we should put two regions of interest in the profile, one in the peak and the other in the valley that together represent the step. This can be seen from Figure \ref{fig:one}.\\
 
 \begin{figure}[H]
 	\centering
@@ -31,8 +33,7 @@ Once acquiring a good profile of the measured object, we just go to "Master reg"
 	\caption{Set regions of interest in order to measure the height}
 	\label{fig:one}
 \end{figure}
-
-After height is measured, we starts to consider what if the object is shifted and angle is changed. So we perform shift and angle correction by setting region of moving in the "Pos corr". The height numbers in the up right side of Figure \ref{fig:twoa} and Figure \ref{fig:twob} show that, accurate measured height could still be acquired even the object is shifted or rotated.\\
+The measurement result will be found by taking the difference in mean heights in the two specified regions. After the step is measured, we start to consider what if the object is shifted and angle is changed. So we perform shift and angle correction by setting region of moving in the tab "Pos Corr". The height measurement value in the top right side of Figure \ref{fig:twoa} and Figure \ref{fig:twob} show that accurate measured height could still be acquired even when the object is shifted or rotated.\\
 
 \begin{figure}[H]
 	\centering
@@ -56,7 +57,7 @@ In this part, we try to measure the angle of an object with shiny surface and se
 	\label{fig:three}
 \end{figure}
 
-In order to characterize the angle between two planes, similarly, we should first adjust camera to a proper height so that we can get profile of the object. Then use "Master reg" to keep the profile. Finally, the measurement type in "OUT setting" should be set to "Angle" and the regions of interest are also adjusted to a proper position, illustrated in Figure \ref{fig:four}. And the angle can be easily measured from the regions of interest.\\
+In order to characterize the angle between two planes, similarly, we should first adjust camera to a proper height so that we can get a good profile of the object. Then use "Master reg" to save the profile. Finally, the measurement type in "OUT setting" should be set to "Angle" and the regions of interest are also adjusted to a proper position, illustrated in Figure \ref{fig:four}. And the angle can be easily measured from the regions of interest.\\
 
 \begin{figure}[H]
 	\centering
@@ -65,7 +66,7 @@ In order to characterize the angle between two planes, similarly, we should firs
 	\label{fig:four}
 \end{figure}
 
-Naturally, we want to enhance the measurement by position adjustment. After doing the similar thing as the last part, we get the result. Figure \ref{fig:fivea} and Figure \ref{fig:fiveb} are two measurements when the object is shifted or rotated in two different way. It turns out that both outcomes can give us a really good measurement.
+Naturally, we want to improve the measurement by position adjustment. After doing the similar procedure to set position correction as in the previous part, we get the result. Figure \ref{fig:fivea} and Figure \ref{fig:fiveb} are two measurements when the object is shifted or rotated in two different way. We find that both outcomes can give us really good measurements, despite the movement of the object. 
 
 \begin{figure}[H]
 	\centering
@@ -79,7 +80,7 @@ Naturally, we want to enhance the measurement by position adjustment. After doin
 	\label{fig:five}
 \end{figure}
 
-Finally, in this part, we want to acquire the goal of hole detection. First, In Figure \ref{fig:sixa}, we can see there are different kinds of holes. And then, Figure \ref{fig:sixb} and Figure \ref{fig:sixc} reflect how holes in the images looks like int the measurement. 
+Finally, in this part, we want to acquire the goal of hole detection. First, In Figure \ref{fig:sixa}, we can see there are different kinds of holes. And then, Figure \ref{fig:sixb} and Figure \ref{fig:sixc} reflect how the holes can be detected in the images during the measurement. 
 
 \begin{figure}[H]
 	\centering
@@ -98,11 +99,12 @@ Finally, in this part, we want to acquire the goal of hole detection. First, In 
 
 
 \section*{Conclusion}
-
+In this experiment we used a high-accuracy laser displacement sensor with its appropriate equipment to measure and inspect physical parameters of given objects.
+We used the provided software to capture the profile of the object, register it, and used it to measure the step and the angle on an object in real time. \\
+We were also able to configure the laser sensor to detect the registered profile and acquire measurements even after the object has been shifted and/or rotated.\\
 
 \section*{References}
 
-{[}1{]} - https://en.wikipedia.org/wiki/Digital\_camera
-\\
-{[}2{]} - http://www.baslerweb.com/en/products/line-scan-cameras
+{[}1{]} -http://www.measurecentral.com
+
 \end{document}
