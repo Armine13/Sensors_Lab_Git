@@ -6,6 +6,8 @@
 \usepackage{subfigure}
 \usepackage{float}
 \setlength{\parindent}{0pt}
+\usepackage{amsmath}
+
 
 \begin{document}
 
@@ -18,7 +20,7 @@
 \section{Introduction}
 
 \section{Simplified polarization imaging}
-Firstly, in order to answer the fifth question in the "\textbf{Getting started}" part, we rotate the polarizer from 0\textdegree to 90\textdegree. The result can be seen in the figure \ref{fig:one}. Please notice the cellphone screen in the pictures. When the angle of polarizer is 0\textdegree, the screen has a really high intensity, with the 90\textdegree one an extremely low intensity. Due to that, we are able to say that this cellphone are polarized in the direction of 0\textdegree.\\
+Firstly, in order to answer the fifth question in the "\textbf{Getting started}" part, we rotate the polarizer from 0\textdegree to 90\textdegree. The result can be seen in the Figure \ref{fig:one}. Please notice the cellphone screen in the pictures. When the angle of polarizer is 0\textdegree, the screen has a really high intensity, with the 90\textdegree one an extremely low intensity. Due to that, we are able to say that this cellphone are polarized in the direction of 0\textdegree.\\
 
 \begin{figure}[H]
 	\centering
@@ -38,12 +40,133 @@ Firstly, in order to answer the fifth question in the "\textbf{Getting started}"
 \subsection{Wolff's method}
 Before taking any pictures, we set the autoexposure and gain of the camera to be manual because we want to keep everything of camera the same, so that we can eliminate any effect from camera itself.\\
 \\
-After taking pictures with the polarizer orientation: 0\textdegree, 45\textdegree, 90\textdegree, we first compute the total light intensity $I$ based on the equation:
-$$
-I = I_{0} + I_{90}
-$$
+After taking pictures with the polarizer orientation: 0\textdegree, 45\textdegree, 90\textdegree, we first compute the total light intensity $I$, angle of polarization $\varphi$, and degree of polarization $\rho$ respectively. :
+
+\begin{align*} 
+	I &= I_{0} + I_{90}\\
+	\varphi &= \frac{I - 2I_{45}} {I - 2I_{90}}\\
+	\rho &= \frac{\sqrt{(I-2I_{45})^{2} + (I-2I_{90})^{2}}}{I}
+\end{align*}
+
+These parameter images are shown respectively in the Figure \ref{fig:two}. We notice in the Figure \ref{fig:twob}, the screens of both computer monitor and smartphone are very dark. In contrast, other region are full of random noise. This is due to the fact the screens are polarized and the light coming out of the screen has only one direction, while other regions in the picture are unporlarized, so the angle of light are in every direction. So this picture reflects the angle of light. \\
+\\
+In the Figure \ref{fig:twoc}, we find out that the two screens are rather bright while most of other areas are kind of dark. After analysing the reason, we find out this image is about the degree of polarization, which means the brighter a certain area, the higher degree of polarization. That is to say, the screen of computer and smartphone are almost linear polarized, but other objects in the picture are not polarized. So the value in the regions of the screen is  high.
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Intensity]{\label{fig:twoa}
+	\includegraphics[width=0.3\linewidth]{Pictures/wolff/I.jpg}
+	}
+	\subfigure[Angle of Polarization $\varphi$]{\label{fig:twob}
+	\includegraphics[width=0.3\linewidth]{Pictures/wolff/AOP.jpg}
+	}
+	\subfigure[Degree of Polarization $\rho$]{\label{fig:twoc}
+	\includegraphics[width=0.3\linewidth]{Pictures/wolff/DOP.jpg}
+	}
+	\caption{Parameters of polarization}
+	\label{fig:two}
+\end{figure}
+
+This part shows a color image that represents the three parameters, so we should wait a bit now.
 
 \subsection{Least Mean Square method}
+In this part, firstly we snap and store $N = 9$ images of one scene with $N$ consecutive orientations of polarizer. This images are shown in the Figure \ref{fig:three}.
+
+\begin{figure}[H]
+	\centering
+	\subfigure[0\textdegree]{\label{fig:threea}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/0.jpg}
+	}
+	\subfigure[20\textdegree]{\label{fig:threeb}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/20.jpg}
+	}
+	\subfigure[40\textdegree]{\label{fig:threec}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/40.jpg}
+	}
+	\subfigure[60\textdegree]{\label{fig:threed}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/60.jpg}
+	}
+	\subfigure[80\textdegree]{\label{fig:threee}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/80.jpg}
+	}
+	\subfigure[100\textdegree]{\label{fig:threef}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/100.jpg}
+	}
+	\subfigure[120\textdegree]{\label{fig:threeg}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/120.jpg}
+	}
+	\subfigure[140\textdegree]{\label{fig:threeh}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/140.jpg}
+	}
+	\subfigure[160\textdegree]{\label{fig:threei}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/160.jpg}
+	}
+	\caption{Images of a scene with various angles of polarizer (0\textdegree --160\textdegree)}
+	\label{fig:three}
+\end{figure}
+
+After acquiring the $N$ pictures, we try to use Least Mean Square method to estimate $s_{0}, s_{1}, s_{2}$ based on the equation below. $M = rows\times columns$, for every pixel : $j = 1\dots M $, we have:
+\begin{align*} 
+	I^j_{1} &= 0.5(s^j_{0} + s^j_{1} cos2\alpha_{1} + s^j_{2} cos2\alpha_{1})\\
+	I^j_{2} &= 0.5(s^j_{0} + s^j_{1} cos2\alpha_{2} + s^j_{2} cos2\alpha_{2})\\
+	 &\dots \\
+	I^j_{N} &= 0.5(s^j_{0} + s^j_{1} cos2\alpha_{N} + s^j_{2} cos2\alpha_{N})\\
+\end{align*}
+Where $I^j$ is the intensity value of one pixel, $\alpha$ corresponds to different angle of polarization. Such equations can be modelled as matrix form:
+$$
+Y = 0.5AX
+$$
+Here $X = [s_{0}, s_{1}, s_{2}]^T$. As we know, in this case, $A$ is a $9\times3$ matrix, whose rank is no bigger than 3. $Y$ has large possibility not belonging to the column space of $A$, so we have to use Least Mean Square method if we want to get a similar solution. Such a solution will be:
+$$
+X = (A^TA)^{-1}A^TY
+$$
+
+The images of $s_{0}, s_{1}, s_{2}$ is shown in Figure \ref{fig:four}.
+\begin{figure}[H]
+	\centering
+	\subfigure[$s_{0}$]{\label{fig:foura}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/S0.jpg}
+	}
+	\subfigure[$s_{1}$]{\label{fig:fourb}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/S1.jpg}
+	}
+	\subfigure[$s_{2}$]{\label{fig:fourc}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/S2.jpg}
+	}
+	\caption{Images of three parameters in Stokes Vector}
+	\label{fig:four}
+\end{figure}
+Because we know the relationship below:\\
+\\
+\textbf{Toal light intenistiy} $I$
+$$
+I = s_{0}
+$$
+\textbf{Degree of polarization} $\rho$
+$$
+\rho = \frac{\sqrt{s_{1}^2  + s_{2}^2}}{s_{0}}
+$$
+\textbf{Angle of polarization} $\varphi$
+$$
+\varphi = 0.5\times atan(\frac{s_{2}}{s_{1}})
+$$
+Corresponding images are shown in Figure \ref{fig:five}
+\begin{figure}[H]
+	\centering
+	\subfigure[$I$]{\label{fig:fivea}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/I_Least.jpg}
+	}
+	\subfigure[$\rho$]{\label{fig:fiveb}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/DOP_Least.jpg}
+	}
+	\subfigure[$\varphi$]{\label{fig:fivec}
+	\includegraphics[width=0.3\linewidth]{Pictures/Least_Mean/Phi_Least.jpg}
+	}
+	\caption{$I, \rho, \varphi$}
+	\label{fig:five}
+\end{figure}
+
+Draw sinusoidal relationship part
 
 \section{Contrast polarization measurement}
 
