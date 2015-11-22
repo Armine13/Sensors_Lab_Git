@@ -1,25 +1,26 @@
 clc; clear all;
-Ip = imread('./Pictures/reflect/0c_cr.jpg');
-Io = imread('./Pictures/reflect/90c_cr.jpg');
-Ip = double(Ip);
-Io = double(Io);
-Itotal = Ip + Io;
-Icontr = Ip - Io;
-Iratio = (Ip - Io) ./ (Ip + Io);
-%figure(), imagesc(Itotal);
-%figure(), imagesc(abs(Icontr));
-%figure(), imagesc(Iratio);
+%Ip = imread('./Pictures/reflect/0c_cr.jpg');
+%Io = imread('./Pictures/reflect/90c_cr.jpg');
+%Ip = rgb2gray(double(Ip));
+%Io = rgb2gray(double(Io));
+%Itotal = Ip + Io;
+%Icontr = Ip - Io;
+%Iratio = Icontr ./ Itotal;
+%%figure(), imshow(Itotal);
+%%figure(), imshow((Icontr));
+%figure(), imshow((Iratio));
 %colormap(gray);
 
 Ip = imread('./Pictures/reflect/d90.jpg');
 Io = imread('./Pictures/reflect/d0.jpg');
-Ip = double(Ip);
-Io = double(Io);
+Ip = rgb2gray(double(Ip));
+Io = rgb2gray(double(Io));
 Itotal = Ip + Io;
 Icontr = Ip - Io;
-Itotal(Itotal == 0) = 1;
 Iratio = Icontr ./ Itotal;
-figure(), imagesc(Itotal);
-figure(), imagesc((Icontr));
-figure(), imagesc((Iratio));
+%figure(), imshow(Itotal);
+%figure(), imshow((Icontr));
+figure(), imshow((Iratio));
 colormap(gray);
+axis('equal')
+print -djpg dratio.jpg
