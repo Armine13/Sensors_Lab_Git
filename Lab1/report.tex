@@ -49,7 +49,7 @@ After taking pictures with the polarizer orientation: 0\textdegree, 45\textdegre
 	\rho &= \frac{\sqrt{(I-2I_{45})^{2} + (I-2I_{90})^{2}}}{I}
 \end{align*}
 
-These parameter images are shown respectively in the Figure \ref{fig:two}. We notice in the Figure \ref{fig:twob}, the screens of both computer monitor and smartphone are very dark. In contrast, other region are full of random noise. This is due to the fact the screens are polarized and the light coming out of the screen has only one direction, while other regions in the picture are unporlarized, so the angle of light are in every direction. So this picture reflects the angle of light. \\
+These parameter images are shown respectively in the Figure \ref{fig:two}. We notice in the Figure \ref{fig:twob}, the angle of polarization of screen of computer monitor is about $-45\textdegree$, while the angle of the smartphone screen is 0\textdegree. In contrast, other region are full of random noise. This is due to the fact the screens are polarized and the light coming out of the screen has only one direction, while other regions in the picture are unporlarized, so the angle of light are in every direction. So this picture reflects the angle of light. \\
 \\
 In the Figure \ref{fig:twoc}, we find out that the two screens are rather bright while most of other areas are kind of dark. After analysing the reason, we find out this image is about the degree of polarization, which means the brighter a certain area, the higher degree of polarization. That is to say, the screen of computer and smartphone are almost linear polarized, but other objects in the picture are not polarized. So the value in the regions of the screen is  high.
 
@@ -68,7 +68,21 @@ In the Figure \ref{fig:twoc}, we find out that the two screens are rather bright
 	\label{fig:two}
 \end{figure}
 
-This part shows a color image that represents the three parameters, so we should wait a bit now.
+After acquiring the three parameters, we model them to $HSV$ model as below, and color image that represents the three parameters shows in Figure \ref{fig:hsv}\\
+\begin{align*} 
+	2\varphi & \rightarrow H\\
+	\rho & \rightarrow S\\
+	I & \rightarrow V
+\end{align*}
+
+
+ \begin{figure}[H]
+ 	\centering
+	\includegraphics[width=\linewidth]{Pictures/Least_Mean/HSV2RGB.jpg}
+ 	\caption{Color image represents 3 parameters}
+ 	\label{fig:hsv}
+ \end{figure}
+
 
 \subsection{Least Mean Square method}
 In this part, firstly we snap and store $N = 9$ images of one scene with $N$ consecutive orientations of polarizer. This images are shown in the Figure \ref{fig:three}.
@@ -139,7 +153,7 @@ The images of $s_{0}, s_{1}, s_{2}$ is shown in Figure \ref{fig:four}.
 \end{figure}
 Because we know the relationship below:\\
 \\
-\textbf{Toal light intenistiy} $I$
+\textbf{Total light intenistiy} $I$
 $$
 I = s_{0}
 $$
@@ -167,13 +181,20 @@ Corresponding images are shown in Figure \ref{fig:five}
 	\label{fig:five}
 \end{figure}
 
-Draw sinusoidal relationship part
+Now we are going to draw a graph in order to show the sinusoidal relationship in polarized region. We respectively choose three points in our 9 images, which are the point in the computer screen, smartphone and unpolarized region. The result is shown in Figure \ref{fig:plot}. It is easy to notice that the points in polarized region follows the sinusoidal relationship, while those in unpolarized region does not. This is in accordance with the fact.
+ \begin{figure}[H]
+ 	\centering
+	\includegraphics[width=\linewidth]{Pictures/Least_Mean/sin.jpg}
+ 	\caption{Sinusoidal relationship }
+ 	\label{fig:plot}
+ \end{figure}
+
 
 \section{Contrast polarization measurement}
-In this section we use two polarizer, an electronic rotator and a light source to explore the properties of objects and light reflections.\\
+In this section we use two polarizers, an electronic rotator and a light source to explore the properties of objects and light reflections.\\
 
 \subsection{Polarizers and a rotator}
-First, we experimented with different setting of polarizers and observed the effect of the angle between polarizers on the image( Figure \ref{fig:six}).\\
+First, we experimented with different setting of polarizers and observed the effect of the angle between polarizers on the image (Figure \ref{fig:six}).\\
 
 \begin{figure}[H]
 	\centering
@@ -191,14 +212,14 @@ First, we experimented with different setting of polarizers and observed the eff
 \end{figure}
 When we set up the two polarizers oriented to $0\deg$ we saw that the intensity of the light decreases with adding each polarizer. 
 After the first polarizer, the light is dimmed a little bit. According to Malus' law:
-$I=I_ocos^2(θ)$\\
-Where $I_0$ is the initial intensity and $\Theta$ is the angle of polarization.\\
-That means that when the light is not polarized, only a half of the light will be transmitted as the cosine term will average to $\frac{1}{2}$\\
-After the first polarizer, the light is linearly polarised, and again, according to Malus' Law it is diminished depending in the angle $\Theta$.\\
-From there we can conclude, that if the angle of polarisation $\Theta$ is $0\deg$, the intensity remains the same as after the first polarizer: 1 / 2 of initial intensity. \\
+$I=I_ocos^2(\Theta)$, where $I_0$ is the initial intensity and $\Theta$ is the angle of polarization.
+That means that when the light is not polarized, only a half of the light will be transmitted as the cosine term will average to $\frac{1}{2}$.\\
+\\
+After the first polarizer, the light is linearly polarised, and again, according to Malus' Law it is diminished depending in the angle $\Theta$.From there we can conclude, that if the angle of polarisation $\Theta$ is $0\textdegree$, the intensity remains the same as after the first polarizer: $\frac{1}{2}$ of initial intensity. \\
+\\
 After that the switchable polarization rotator is inserted between two polarizers.
-This rotator has only two states: rotate light by $90\deg$ or $0\deg$. 
-So when the polarizers are set to $0\deg$ each and the rotator is on, the light is rotated by $90\deg$, making it perpendicular to the second polarizer. 
+This rotator has only two states: rotate light by $90\textdegree$ or $0\textdegree$. 
+So when the polarizers are set to $0\textdegree$ each and the rotator is on, the light is rotated by $90\textdegree$, making it perpendicular to the second polarizer. 
 That, as we know results in total extinguishing of any light passing. 
 However when the rotator is off, there is almost no difference.\\
 \begin{figure}[H]
@@ -215,10 +236,12 @@ However when the rotator is off, there is almost no difference.\\
 
 \subsection{Diffused and specular reflection}
 In this section we experiment with diffused and specular reflections, and how the polarizer affects that kind of light.\\
-Specular reflection can be seen when light is reflected from smooth surfaces and the reflected light becomes polarised.
+\\
+Specular reflection can be seen when light is reflected from smooth surfaces and the reflected light becomes polarized.
 Diffused reflection is caused when light falls onto a rough surface. 
-This reflected light is not polarised but diffused in all directions.\\
-To test that, we introduced a polarised light source into the system, before the rotator. \\
+This reflected light is not polarized but diffused in all directions.\\
+\\
+To test that, we introduced a polarized light source into the system, before the rotator. 
 We observe that the glare of light is mostly removed from the shiny surface, while the intensity is only dimmed for the diffused reflection as expected.\\
 
 \begin{figure}[H]
@@ -270,6 +293,7 @@ To compute the contrast ratio, we used the images in Figures $\ref{fig:eight}$ $
 	\label{fig:ten}
 \end{figure}
 In the images we can clearly see the filtered glare of light when the polarizer and the light were crossed in the contrast image.\\
+\\
 After doing the same computations for diffused reflection the following results were obtained:
 \begin{figure}[H]
 	\centering
@@ -286,15 +310,16 @@ After doing the same computations for diffused reflection the following results 
 	\label{fig:eleven}
 \end{figure}
 These images are for diffused reflection, and as we know diffused reflection is only slightly affected by polarizers.
-Hence, the difference between $0\deg$ and $90\deg$ angles of polarization is so small that it is almost invisible.\\
+Hence, the difference between $0\deg$ and $90\deg$ angles of polarization is so small that it is almost invisible.
 \section{Conclusion}
 In this laboratory work we experimented with polarizers and their properties. 
 After capturing the resulting imaging with a camera, we were able to measure the parameters of polarized light.
 We also explored the properties of diffused and specular reflections and how they are affected by polarizers.
 
 \section{References}
+{[}1{]} Wolff, Lawrence B. "Polarization vision: a new sensory approach to image understanding." Image and Vision computing 15.2 (1997): 81-93.\\
+{[}2{]} Goldstein, Dennis H. Polarized light. CRC Press, 2010.\\
+{[}3{]} -https://en.wikipedia.org/wiki/Polarizer\\
 
-{[}1{]} -https://en.wikipedia.org/wiki/Polarizer\\
-{[}2{]} -http://www.semrock.com/Data/Sites/1/semrockpdfs/whitepaper\_anewclassofpolarizationopticsforlasers.pdf
 
 \end{document}
