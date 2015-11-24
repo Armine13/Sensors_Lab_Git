@@ -33,13 +33,15 @@ imagesc(phi);% Angle of Polarization
 %compute the degree of polarization
 DOP = sqrt((I - 2.*im_45).^2 + (I - 2.*im_90).^2)./I;
 figure();
-imagesc(DOP); title('Degree of Polarization');
+imshow(DOP); title('Degree of Polarization');
 
 imwrite(I,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/I.jpg');
 imwrite(DOP,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/DOP.jpg'); 
 %imwrite(phi,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/AOP.jpg');
 
 %% 
+height = size(im_0, 1);
+width = size(im_0, 2);
 Combine = zeros(height, width, 3);
 
 Combine(:,:,1) = ((2 * phi) + 180) / 360;

@@ -4,9 +4,7 @@ im_0 = imread('/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensor
 im_45 = imread('/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/45.jpg');
 im_90 = imread('/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/90.jpg');
 im_no = imread('/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/no.jpg');
-hsv = rgb2hsv(im_no);
-aa = hsv(:,:,3);
-imagesc(hsv);
+
 %%
 %change pictures to gray
 im_0 = rgb2gray(im_0);
@@ -33,11 +31,24 @@ imagesc(phi);% Angle of Polarization
 %compute the degree of polarization
 DOP = sqrt((I - 2.*im_45).^2 + (I - 2.*im_90).^2)./I;
 figure();
-imagesc(DOP); title('Degree of Polarization');
+imshow(DOP); title('Degree of Polarization');
 
 imwrite(I,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/I.jpg');
 imwrite(DOP,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/DOP.jpg'); 
 %imwrite(phi,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/AOP.jpg');
+
+%% 
+height = size(im_0, 1);
+width = size(im_0, 2);
+Combine = zeros(height, width, 3);
+
+Combine(:,:,1) = ((2 * phi) + 180) / 360;
+Combine(:,:,2) = DOP;
+Combine(:,:,3) = I;
+RGB = hsv2rgb(Combine);
+imshow(RGB);
+imwrite(phi,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/wolff/HSV2RGB.jpg')
+
 
 %% Least Mean Square method
 %read the image first
@@ -100,12 +111,15 @@ imwrite(I_Least,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sens
 imwrite(DOP_Least,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/Least_Mean/DOP_Least.jpg')
 %imwrite(Phi_Least,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/Least_Mean/Phi_Least.jpg');
 
-%%
+%% H S V
 Combine = zeros(height, width, 3);
-Combine(:,:,1) = I_Least;
+
+Combine(:,:,1) = ((2 * Phi_Least) + 180) / 360;
 Combine(:,:,2) = DOP_Least;
-Combine(:,:,3) = Phi_Least;
-imshow(Combine)
+Combine(:,:,3) = I_Least;
+RGB = hsv2rgb(Combine);
+imshow(RGB);
+imwrite(RGB,'/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/Least_Mean/HSV2RGB.jpg')
 
 %% sinusoidal of different position
 point_in_screen = [];
@@ -113,14 +127,18 @@ point_in_phone = [];
 point_in_other = [];
 for k = 1 : N
     point_in_screen = [point_in_screen,im{k}(200,100)];%point in the screen
-    point_in_phone = [point_in_phone,im{k}(500,150)];%point in the phone
+    point_in_phone = [point_in_phone,im{k}(502,151)];%point in the phone
     point_in_other = [point_in_other,im{k}(300,300)];%point in other place
 end
 plot(point_in_screen,'r');
 hold on;
 plot(point_in_phone, 'g');
 plot(point_in_other, 'b');
+legend('computer screen','phone', 'unpolarized place')
+
 hold off;
+
+print('/Users/Songyou/Documents/VIBOT/UB/Sensors and Digitization/Sensors_Lab_Git/Lab1/Pictures/Least_Mean/sin', '-djpeg');
 
 %% sinusoidal of s0, s1, s2
 point_in_s0 = [];
