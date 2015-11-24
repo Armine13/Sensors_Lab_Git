@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  24 NOV 2015 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  24 NOV 2015 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -462,21 +462,21 @@ Package pdftex.def Info: Pictures/Least_Mean/I_Least.jpg used on input line 173
 .
 (pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
 
-<Pictures/Least_Mean/DOP_Least.jpg, id=52, 1027.84pt x 770.88pt>
-File: Pictures/Least_Mean/DOP_Least.jpg Graphic file (type jpg)
-
-<use Pictures/Least_Mean/DOP_Least.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/DOP_Least.jpg used on input line 1
-76.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/Least_Mean/Phi_Least.jpg, id=53, 416.55624pt x 313.17pt>
+<Pictures/Least_Mean/Phi_Least.jpg, id=52, 416.55624pt x 313.17pt>
 File: Pictures/Least_Mean/Phi_Least.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/Phi_Least.jpg>
 Package pdftex.def Info: Pictures/Least_Mean/Phi_Least.jpg used on input line 1
-79.
+76.
 (pdftex.def)             Requested size: 103.50105pt x 77.80966pt.
+
+<Pictures/Least_Mean/DOP_Least.jpg, id=53, 1027.84pt x 770.88pt>
+File: Pictures/Least_Mean/DOP_Least.jpg Graphic file (type jpg)
+
+<use Pictures/Least_Mean/DOP_Least.jpg>
+Package pdftex.def Info: Pictures/Least_Mean/DOP_Least.jpg used on input line 1
+79.
+(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
 
 <Pictures/Least_Mean/sin.jpg, id=54, 1204.5pt x 904.37875pt>
 File: Pictures/Least_Mean/sin.jpg Graphic file (type jpg)
@@ -485,8 +485,8 @@ File: Pictures/Least_Mean/sin.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/Least_Mean/sin.jpg used on input line 187.
 (pdftex.def)             Requested size: 345.0pt x 259.034pt.
  [5 <./Pictures/Least_Mean/S0.jpg> <./Pictures/Least_Mean/S1.jpg> <./Pictures/L
-east_Mean/S2.jpg> <./Pictures/Least_Mean/I_Least.jpg> <./Pictures/Least_Mean/DO
-P_Least.jpg> <./Pictures/Least_Mean/Phi_Least.jpg>]
+east_Mean/S2.jpg> <./Pictures/Least_Mean/I_Least.jpg> <./Pictures/Least_Mean/Ph
+i_Least.jpg> <./Pictures/Least_Mean/DOP_Least.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
@@ -703,7 +703,7 @@ f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on report.pdf (10 pages, 8215643 bytes).
+Output written on report.pdf (10 pages, 8215645 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
