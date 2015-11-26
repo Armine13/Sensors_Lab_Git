@@ -1,16 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  24 NOV 2015 19:42
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.1.18)  24 NOV 2015 18:56
+>>>>>>> 4b1539eea794a61edfb9d8313c18c9589fedc42c
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -24,69 +27,64 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin9.def
-File: latin9.def 2015/03/17 v1.2c Input encoding file
+(/usr/share/texmf-texlive/tex/latex/base/latin9.def
+File: latin9.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
@@ -102,11 +100,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks17
@@ -114,41 +112,41 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen108
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count95
 \leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count97
 \DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count99
 \c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
@@ -169,10 +167,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-(./report.aux
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (./report.aux
 
 LaTeX Warning: Label `fig:rotatorzero' multiply defined.
 
@@ -230,7 +227,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen117
@@ -241,430 +238,263 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPscratchCnt=\count109
 \MPscratchDim=\dimen118
 \MPnumerator=\count110
-\makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 <Pictures/wolff/0.jpg, id=1, 770.88pt x 578.16pt>
 File: Pictures/wolff/0.jpg Graphic file (type jpg)
  <use Pictures/wolff/0.jpg>
-Package pdftex.def Info: Pictures/wolff/0.jpg used on input line 30.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
 <Pictures/wolff/45.jpg, id=2, 770.88pt x 578.16pt>
 File: Pictures/wolff/45.jpg Graphic file (type jpg)
  <use Pictures/wolff/45.jpg>
-Package pdftex.def Info: Pictures/wolff/45.jpg used on input line 33.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
 <Pictures/wolff/90.jpg, id=3, 770.88pt x 578.16pt>
 File: Pictures/wolff/90.jpg Graphic file (type jpg)
  <use Pictures/wolff/90.jpg>
-Package pdftex.def Info: Pictures/wolff/90.jpg used on input line 36.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
-res/wolff/0.jpg> <./Pictures/wolff/45.jpg> <./Pictures/wolff/90.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/wolff/0.jpg> <.
+/Pictures/wolff/45.jpg> <./Pictures/wolff/90.jpg>]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 52.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 54.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
-<Pictures/wolff/I.jpg, id=19, 1027.84pt x 770.88pt>
+<Pictures/wolff/I.jpg, id=17, 1027.84pt x 770.88pt>
 File: Pictures/wolff/I.jpg Graphic file (type jpg)
  <use Pictures/wolff/I.jpg>
-Package pdftex.def Info: Pictures/wolff/I.jpg used on input line 60.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/wolff/AOP.jpg, id=20, 416.55624pt x 313.17pt>
+<Pictures/wolff/AOP.jpg, id=18, 416.55624pt x 313.17pt>
 File: Pictures/wolff/AOP.jpg Graphic file (type jpg)
 
 <use Pictures/wolff/AOP.jpg>
-Package pdftex.def Info: Pictures/wolff/AOP.jpg used on input line 63.
-(pdftex.def)             Requested size: 103.50105pt x 77.80966pt.
-
-<Pictures/wolff/DOP.jpg, id=21, 1027.84pt x 770.88pt>
+<Pictures/wolff/DOP.jpg, id=19, 1027.84pt x 770.88pt>
 File: Pictures/wolff/DOP.jpg Graphic file (type jpg)
 
 <use Pictures/wolff/DOP.jpg>
-Package pdftex.def Info: Pictures/wolff/DOP.jpg used on input line 66.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-<Pictures/Least_Mean/HSV2RGB.jpg, id=22, 1027.84pt x 770.88pt>
+[2 <./Pictures/wolff/I.jpg> <./Pictures/wolff/AOP.jpg> <./Pictures/wolff/DOP.jp
+g>] <Pictures/Least_Mean/HSV2RGB.jpg, id=30, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/HSV2RGB.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/HSV2RGB.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/HSV2RGB.jpg used on input line 81.
-
-(pdftex.def)             Requested size: 345.0pt x 258.75514pt.
- [2 <./Pictures/wolff/I.jpg> <./Pictures/wolff/AOP.jpg> <./Pictures/wolff/DOP.j
-pg>]
-<Pictures/Least_Mean/0.jpg, id=32, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/0.jpg, id=31, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/0.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/0.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/0.jpg used on input line 94.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/20.jpg, id=33, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/20.jpg, id=32, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/20.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/20.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/20.jpg used on input line 97.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/40.jpg, id=34, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/40.jpg, id=33, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/40.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/40.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/40.jpg used on input line 100.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/60.jpg, id=35, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/60.jpg, id=34, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/60.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/60.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/60.jpg used on input line 103.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/80.jpg, id=36, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/80.jpg, id=35, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/80.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/80.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/80.jpg used on input line 106.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/100.jpg, id=37, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/100.jpg, id=36, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/100.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/100.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/100.jpg used on input line 109.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/120.jpg, id=38, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/120.jpg, id=37, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/120.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/120.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/120.jpg used on input line 112.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/140.jpg, id=39, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/140.jpg, id=38, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/140.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/140.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/140.jpg used on input line 115.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
-
-<Pictures/Least_Mean/160.jpg, id=40, 770.88pt x 578.16pt>
+<Pictures/Least_Mean/160.jpg, id=39, 770.88pt x 578.16pt>
 File: Pictures/Least_Mean/160.jpg Graphic file (type jpg)
 
-<use Pictures/Least_Mean/160.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/160.jpg used on input line 118.
-(pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
- [3 <./Pictures/Least_Mean/HSV2RGB.jpg>]
+<use Pictures/Least_Mean/160.jpg> [3 <./Pictures/Least_Mean/HSV2RGB.jpg>]
 [4 <./Pictures/Least_Mean/0.jpg> <./Pictures/Least_Mean/20.jpg> <./Pictures/Lea
 st_Mean/40.jpg> <./Pictures/Least_Mean/60.jpg> <./Pictures/Least_Mean/80.jpg> <
 ./Pictures/Least_Mean/100.jpg> <./Pictures/Least_Mean/120.jpg> <./Pictures/Leas
 t_Mean/140.jpg> <./Pictures/Least_Mean/160.jpg>]
-<Pictures/Least_Mean/S0.jpg, id=48, 1027.84pt x 770.88pt>
+<Pictures/Least_Mean/S0.jpg, id=47, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/S0.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/S0.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/S0.jpg used on input line 144.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/Least_Mean/S1.jpg, id=49, 1027.84pt x 770.88pt>
+<Pictures/Least_Mean/S1.jpg, id=48, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/S1.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/S1.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/S1.jpg used on input line 147.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/Least_Mean/S2.jpg, id=50, 1027.84pt x 770.88pt>
+<Pictures/Least_Mean/S2.jpg, id=49, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/S2.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/S2.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/S2.jpg used on input line 150.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
 
  []
 
-<Pictures/Least_Mean/I_Least.jpg, id=51, 1027.84pt x 770.88pt>
+<Pictures/Least_Mean/I_Least.jpg, id=50, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/I_Least.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/I_Least.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/I_Least.jpg used on input line 173
-.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/Least_Mean/Phi_Least.jpg, id=52, 416.55624pt x 313.17pt>
+<Pictures/Least_Mean/Phi_Least.jpg, id=51, 416.55624pt x 313.17pt>
 File: Pictures/Least_Mean/Phi_Least.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/Phi_Least.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/Phi_Least.jpg used on input line 1
-76.
-(pdftex.def)             Requested size: 103.50105pt x 77.80966pt.
-
-<Pictures/Least_Mean/DOP_Least.jpg, id=53, 1027.84pt x 770.88pt>
+<Pictures/Least_Mean/DOP_Least.jpg, id=52, 1027.84pt x 770.88pt>
 File: Pictures/Least_Mean/DOP_Least.jpg Graphic file (type jpg)
 
 <use Pictures/Least_Mean/DOP_Least.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/DOP_Least.jpg used on input line 1
-79.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/Least_Mean/sin.jpg, id=54, 1204.5pt x 904.37875pt>
+<Pictures/Least_Mean/sin.jpg, id=53, 1204.5pt x 904.37875pt>
 File: Pictures/Least_Mean/sin.jpg Graphic file (type jpg)
 
-<use Pictures/Least_Mean/sin.jpg>
-Package pdftex.def Info: Pictures/Least_Mean/sin.jpg used on input line 187.
-(pdftex.def)             Requested size: 345.0pt x 259.034pt.
- [5 <./Pictures/Least_Mean/S0.jpg> <./Pictures/Least_Mean/S1.jpg> <./Pictures/L
-east_Mean/S2.jpg> <./Pictures/Least_Mean/I_Least.jpg> <./Pictures/Least_Mean/Ph
-i_Least.jpg> <./Pictures/Least_Mean/DOP_Least.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+<use Pictures/Least_Mean/sin.jpg> [5 <./Pictures/Least_Mean/S0.jpg> <./Pictures
+/Least_Mean/S1.jpg> <./Pictures/Least_Mean/S2.jpg> <./Pictures/Least_Mean/I_Lea
+st.jpg> <./Pictures/Least_Mean/Phi_Least.jpg> <./Pictures/Least_Mean/DOP_Least.
+jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-<Pictures/contrast/00.jpg, id=59, 1027.84pt x 770.88pt>
+<Pictures/contrast/00.jpg, id=58, 1027.84pt x 770.88pt>
 File: Pictures/contrast/00.jpg Graphic file (type jpg)
 
 <use Pictures/contrast/00.jpg>
-Package pdftex.def Info: Pictures/contrast/00.jpg used on input line 203.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/contrast/0-45.jpg, id=60, 1027.84pt x 770.88pt>
+<Pictures/contrast/0-45.jpg, id=59, 1027.84pt x 770.88pt>
 File: Pictures/contrast/0-45.jpg Graphic file (type jpg)
 
 <use Pictures/contrast/0-45.jpg>
-Package pdftex.def Info: Pictures/contrast/0-45.jpg used on input line 206.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/contrast/90-0.jpg, id=61, 1027.84pt x 770.88pt>
+<Pictures/contrast/90-0.jpg, id=60, 1027.84pt x 770.88pt>
 File: Pictures/contrast/90-0.jpg Graphic file (type jpg)
 
-<use Pictures/contrast/90-0.jpg>
-Package pdftex.def Info: Pictures/contrast/90-0.jpg used on input line 209.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
- [6 <./Pictures/Least_Mean/sin.jpg>]
+<use Pictures/contrast/90-0.jpg> [6 <./Pictures/Least_Mean/sin.jpg>]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 220.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 221.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 221.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 222.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 222.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
-<Pictures/retarder/0.jpg, id=65, 1027.84pt x 770.88pt>
+<Pictures/retarder/0.jpg, id=64, 1027.84pt x 770.88pt>
 File: Pictures/retarder/0.jpg Graphic file (type jpg)
 
 <use Pictures/retarder/0.jpg>
-Package pdftex.def Info: Pictures/retarder/0.jpg used on input line 229.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/retarder/90.jpg, id=66, 1027.84pt x 770.88pt>
+<Pictures/retarder/90.jpg, id=65, 1027.84pt x 770.88pt>
 File: Pictures/retarder/90.jpg Graphic file (type jpg)
 
 <use Pictures/retarder/90.jpg>
-Package pdftex.def Info: Pictures/retarder/90.jpg used on input line 232.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--235
+Underfull \hbox (badness 10000) in paragraph at lines 215--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--235
+Underfull \hbox (badness 10000) in paragraph at lines 215--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--235
+Underfull \hbox (badness 10000) in paragraph at lines 215--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--246
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--246
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--246
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
 [7 <./Pictures/contrast/00.jpg> <./Pictures/contrast/0-45.jpg> <./Pictures/cont
 rast/90-0.jpg> <./Pictures/retarder/0.jpg> <./Pictures/retarder/90.jpg>]
-<Pictures/reflect/0.jpg, id=71, 1027.84pt x 770.88pt>
+<Pictures/reflect/0.jpg, id=70, 1027.84pt x 770.88pt>
 File: Pictures/reflect/0.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/0.jpg>
-Package pdftex.def Info: Pictures/reflect/0.jpg used on input line 251.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/reflect/d0.jpg, id=72, 1027.84pt x 770.88pt>
+<Pictures/reflect/d0.jpg, id=71, 1027.84pt x 770.88pt>
 File: Pictures/reflect/d0.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/d0.jpg>
-Package pdftex.def Info: Pictures/reflect/d0.jpg used on input line 254.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/reflect/90.jpg, id=73, 1027.84pt x 770.88pt>
+<Pictures/reflect/90.jpg, id=72, 1027.84pt x 770.88pt>
 File: Pictures/reflect/90.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/90.jpg>
-Package pdftex.def Info: Pictures/reflect/90.jpg used on input line 263.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-<Pictures/reflect/d90.jpg, id=74, 1027.84pt x 770.88pt>
+<Pictures/reflect/d90.jpg, id=73, 1027.84pt x 770.88pt>
 File: Pictures/reflect/d90.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/d90.jpg>
-Package pdftex.def Info: Pictures/reflect/d90.jpg used on input line 266.
-(pdftex.def)             Requested size: 103.50105pt x 77.62183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-<Pictures/reflect/stotal.jpg, id=75, 578.16pt x 434.5836pt>
+<Pictures/reflect/stotal.jpg, id=74, 578.16pt x 434.5836pt>
 File: Pictures/reflect/stotal.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/stotal.jpg>
-Package pdftex.def Info: Pictures/reflect/stotal.jpg used on input line 285.
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-<Pictures/reflect/scontrast.jpg, id=76, 578.16pt x 434.5836pt>
+<Pictures/reflect/scontrast.jpg, id=75, 578.16pt x 434.5836pt>
 File: Pictures/reflect/scontrast.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/scontrast.jpg>
-Package pdftex.def Info: Pictures/reflect/scontrast.jpg used on input line 288.
-
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-<Pictures/reflect/sratio.jpg, id=77, 578.16pt x 434.5836pt>
+<Pictures/reflect/sratio.jpg, id=76, 578.16pt x 434.5836pt>
 File: Pictures/reflect/sratio.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/sratio.jpg>
-Package pdftex.def Info: Pictures/reflect/sratio.jpg used on input line 291.
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--294
+Underfull \hbox (badness 10000) in paragraph at lines 281--296
 
  []
 
 [8 <./Pictures/reflect/0.jpg> <./Pictures/reflect/d0.jpg> <./Pictures/reflect/9
 0.jpg> <./Pictures/reflect/d90.jpg>]
-<Pictures/reflect/dtotal.jpg, id=82, 578.16pt x 434.5836pt>
+<Pictures/reflect/dtotal.jpg, id=81, 578.16pt x 434.5836pt>
 File: Pictures/reflect/dtotal.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/dtotal.jpg>
-Package pdftex.def Info: Pictures/reflect/dtotal.jpg used on input line 302.
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-<Pictures/reflect/dcontrast.jpg, id=83, 578.16pt x 434.5836pt>
+<Pictures/reflect/dcontrast.jpg, id=82, 578.16pt x 434.5836pt>
 File: Pictures/reflect/dcontrast.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/dcontrast.jpg>
-Package pdftex.def Info: Pictures/reflect/dcontrast.jpg used on input line 305.
-
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-<Pictures/reflect/dratio.jpg, id=84, 578.16pt x 434.5836pt>
+<Pictures/reflect/dratio.jpg, id=83, 578.16pt x 434.5836pt>
 File: Pictures/reflect/dratio.jpg Graphic file (type jpg)
 
 <use Pictures/reflect/dratio.jpg>
-Package pdftex.def Info: Pictures/reflect/dratio.jpg used on input line 308.
-(pdftex.def)             Requested size: 103.50105pt x 77.79727pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--311
+Underfull \hbox (badness 10000) in paragraph at lines 297--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--323
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
@@ -676,37 +506,33 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3223 strings out of 493089
- 44652 string characters out of 6134842
- 108471 words of memory out of 5000000
- 6626 multiletter control sequences out of 15000+600000
- 13658 words of font info for 36 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,10n,24p,637b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on report.pdf (10 pages, 8215803 bytes).
+ 2546 strings out of 495061
+ 32652 string characters out of 1182621
+ 85298 words of memory out of 3000000
+ 5680 multiletter control sequences out of 15000+50000
+ 13658 words of font info for 36 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,10n,24p,622b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
+armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/armine/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/armine/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/armine/.texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx1440.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecrm1200.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1440.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb>
+Output written on report.pdf (10 pages, 8174233 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 393 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
