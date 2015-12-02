@@ -53,17 +53,53 @@ Here we can see that the camera estimates the mean temperature of the circuit ar
 Another useful measurement that can be done is finding a profile of the temperature along a line on the circuit\\
 <image missing?>
 
-\subsection{Wolff's method}
+\subsection{Camera Calibration}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Pictures/calib.JPG}
+	\caption{Measurement of digital level of a point on a heating plate}
+	\label{fig:four}
+\end{figure}
+As already mentioned, with an infrared camera we cannot precisely measure the temperature of an object without having any information about the properties of the object.
+However, we can measure the digital level of an object, knowing that the digital level has to be linearly dependent on the real temperature of the object.
+To find the correlation between the digital level and the temperature is to calibrate the temperature measurement of the camera.\\
+To find the curve of correlation we measured the digital level and temperature of the same point using an infrared camera as well as an electronic probe, while the temperature of the object was declining.
+The resulting curve can be seen below.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Pictures/calibplot.jpg}
+	\caption{Calibration curve of the temperature measurement with an infrared camera}
+	\label{fig:five}
+\end{figure}
+
+We can see that the relationship is linear, except for some errors of measurement.
+From the curve we can approximate the real temperature of the object if we have its corresponding digital level, by translating digital level to temperature.
+This kind of calibration is not very precise, because the point of measurement has to be the same, as different locations on an object may have different emissivity values.
+Another source of error can be the digital probe used for the measurement: it may give incorrect values for the temperature depending on the duration of the measurement, the temperature of the environment, etc.
+All these factors make the measurement inaccurate.
+Therefore, the calibration too is inaccurate.
+\section{Estimation of Emissivity}
+In this section we used a C.A 1875 training bench to estimate the emissivity of different materials.
+When the bench is still turned off, its infrared image looks as in the picture below.\\
+% training bench cold picture
+From the picture we see that the materials with smooth polished surfaces are acting like mirrors: they reflect the infrared rays that fall onto them.\\
+Then we turned the bench on.
+As the plates heated, the polished surfaces still reflected the heat like mirrors.
+The rough areas however, started to change color.
+And depending on the type of material in the area, the colors in the infrared image varied.
+% training bench hot
+But we know that the temperature of all the plates is, in fact, the same($55\textdegree$C).
+The color difference in the infrared is because of the different emissivity values of the materials.
+
+% ... estimation of emissivity of materials .. pictures?
 
 
-\section{Contrast polarization measurement}
-\subsection{Polarizers and a rotator}
 \section{Conclusion}
-
 \section{References}
-{[}1{]} Wolff, Lawrence B. "Polarization vision: a new sensory approach to image understanding." Image and Vision computing 15.2 (1997): 81-93.\\
-{[}2{]} Goldstein, Dennis H. Polarized light. CRC Press, 2010.\\
-{[}3{]} -https://en.wikipedia.org/wiki/Polarizer\\
+{[}1{]} - C.A 1875, Thermography training bench. https://camatsystem.com/wp-content/uploads/2014/07/CA1875.pdf\\
+{[}2{]} - Tehnical Support. Emissivity in the Infrared. http://www.optotherm.com/emiss-effects.htm\\
+{[}3{]} - Emissivity. https://en.wikipedia.org/wiki/Emissivity
 
 
 \end{document}
