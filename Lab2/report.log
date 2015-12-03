@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.1.18)  3 DEC 2015 22:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.1.18)  3 DEC 2015 23:10
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -240,30 +240,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--59
  []
 
 [2 <./Pictures/position1.JPG> <./Pictures/max1.JPG>]
-<Pictures/calib.JPG, id=19, 1157.32375pt x 549.05125pt>
+<Pictures/calib.JPG, id=19, 963.6pt x 751.30687pt>
 File: Pictures/calib.JPG Graphic file (type jpg)
-
-<use Pictures/calib.JPG>
+ <use Pictures/calib.JPG>
+[3 <./Pictures/profile.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 69--74
 
  []
 
-[3 <./Pictures/profile.jpg> <./Pictures/calib.JPG>]
-<Pictures/calibplot.jpg, id=24, 578.16pt x 434.5836pt>
+<Pictures/calibplot.jpg, id=23, 578.16pt x 434.5836pt>
 File: Pictures/calibplot.jpg Graphic file (type jpg)
 
-<use Pictures/calibplot.jpg>
+<use Pictures/calibplot.jpg> [4 <./Pictures/calib.JPG>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 97.
 
-<Pictures/emiss.jpg, id=25, 302.12875pt x 214.8025pt>
+<Pictures/emiss.jpg, id=28, 302.12875pt x 214.8025pt>
 File: Pictures/emiss.jpg Graphic file (type jpg)
  <use Pictures/emiss.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 89--104
 
  []
 
-[4 <./Pictures/calibplot.jpg>]
+[5 <./Pictures/calibplot.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
@@ -283,52 +282,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[5 <./Pictures/emiss.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
 
-Overfull \hbox (170.41934pt too wide) in paragraph at lines 153--156
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
+
+ []
+
+[6 <./Pictures/emiss.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+<Pictures/Transf.jpg, id=40, 861.2175pt x 379.4175pt>
+File: Pictures/Transf.jpg Graphic file (type jpg)
+
+<use Pictures/Transf.jpg>
+<Pictures/Transf_glass.jpg, id=41, 862.72313pt x 376.40625pt>
+File: Pictures/Transf_glass.jpg Graphic file (type jpg)
+
+<use Pictures/Transf_glass.jpg>
+<Pictures/Transf_pvc.jpg, id=42, 864.22874pt x 380.92313pt>
+File: Pictures/Transf_pvc.jpg Graphic file (type jpg)
+
+<use Pictures/Transf_pvc.jpg>
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 175--182
+ [][] 
+ []
+
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 175--182
+ [] 
+ []
+
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 175--182
+ [] 
+ []
+
+[7] <Pictures/finger2.jpg, id=47, 862.72313pt x 380.92313pt>
+File: Pictures/finger2.jpg Graphic file (type jpg)
+
+<use Pictures/finger2.jpg>
+<Pictures/finger.jpg, id=48, 861.2175pt x 377.91188pt>
+File: Pictures/finger.jpg Graphic file (type jpg)
+
+<use Pictures/finger.jpg>
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 190--195
+ [][] 
+ []
+
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 190--195
+ [] 
+ []
+
+[8 <./Pictures/Transf.jpg> <./Pictures/Transf_glass.jpg> <./Pictures/Transf_pvc
+.jpg>] <Pictures/holes_cropped.jpg, id=53, 468.24937pt x 379.4175pt>
+File: Pictures/holes_cropped.jpg Graphic file (type jpg)
+
+<use Pictures/holes_cropped.jpg>
+<Pictures/holes2_cropped.jpg, id=54, 471.26062pt x 377.91188pt>
+File: Pictures/holes2_cropped.jpg Graphic file (type jpg)
+
+<use Pictures/holes2_cropped.jpg> [9 <./Pictures/finger2.jpg> <./Pictures/finge
+r.jpg>]
+Overfull \hbox (170.41934pt too wide) in paragraph at lines 225--228
 \T1/cmr/m/n/10 [1] - C.A 1875, Ther-mog-ra-phy train-ing bench. http://www.chau
 vin-arnoux.com/sites/default/files/D00HDX78_4.PDF 
  []
 
 
-Overfull \hbox (24.64124pt too wide) in paragraph at lines 153--156
+Overfull \hbox (24.64124pt too wide) in paragraph at lines 225--228
 \T1/cmr/m/n/10 [2] - Tehni-cal Sup-port. Emis-siv-ity in the In-frared. http://
 www.optotherm.com/emiss-
  []
 
-[6] (./report.aux) ) 
+[10 <./Pictures/holes_cropped.jpg> <./Pictures/holes2_cropped.jpg>]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2326 strings out of 495061
- 27570 string characters out of 1182621
- 83593 words of memory out of 3000000
- 5490 multiletter control sequences out of 15000+50000
- 12118 words of font info for 34 fonts, out of 3000000 for 9000
+ 2380 strings out of 495061
+ 28673 string characters out of 1182621
+ 84772 words of memory out of 3000000
+ 5536 multiletter control sequences out of 15000+50000
+ 12882 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,8n,24p,223b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
-200.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk>
- </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ar
-mine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/armine/.texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/armine/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb>
-Output written on report.pdf (6 pages, 1391508 bytes).
+ 27i,8n,24p,479b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.
+600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </h
+ome/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/armine
+/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/armine/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/armine/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm1440.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecrm1728.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb>
+Output written on report.pdf (10 pages, 3028990 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

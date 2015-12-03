@@ -148,9 +148,82 @@ Black plate & 3.10 & 0.95\tabularnewline
 \end{tabular}
 \end{center}
 
+\section{Transmission and reflection coefficients}
+\subsection{Transmission coefficients}
+In this part, we first measure the temperature in a certain point in a object, which is Songyou's hand, and snap the picture, which is Figure \ref{fig:transa}.
+We then snap two more pictures when covering glass and PVC  camera, respectively (Figure \ref{fig:transb}, Figure \ref{fig:transc}) .\\
+\\
+According to the Figure \ref{fig:Transf}, we can easily get the transmission coefficient as below:
+$$
+t_{glass} = \frac{21.70}{32.86} = 0.6604
+$$
+$$
+t_{PVC} = \frac{24.73}{32.86} = 0.7526
+$$
+\subsection{Reflection coefficients}
+For the sake of measuring reflection coefficient of copper, we first set a point in an object (finger), and snap the corresponding infrared image.
+And then we snap another image of the copper-reflected finger.
+They are shown in Figure \ref{fig:finger}. 
+Based on the temperature measured by camera, we can get the reflection coefficient of copper.
+$$
+r_{copper} = \frac{31.12}{33.72} = 0.9229
+$$
+\begin{figure}[H]
+	\centering
+	\subfigure[Original]{\label{fig:transa}
+	\includegraphics[width=\linewidth]{Pictures/Transf.jpg}
+	}
+	\subfigure[Glass]{\label{fig:transb}
+	\includegraphics[width=\linewidth]{Pictures/Transf_glass.jpg}
+	}
+	\subfigure[PVC]{\label{fig:transc}
+	\includegraphics[width=\linewidth]{Pictures/Transf_pvc.jpg}
+	}
+	\caption{Infrared images of hand}
+	\label{fig:Transf}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Original]{\label{fig:fina}
+	\includegraphics[width=\linewidth]{Pictures/finger2.jpg}
+	}
+	\subfigure[Copper-reflect finger]
+	{\label{fig:finb}
+	\includegraphics[width=\linewidth]{Pictures/finger.jpg}
+	}
+	\caption{Infrared images of finger}
+	\label{fig:finger}
+\end{figure}
+
+
+\section{Active thermography (Second experiment)}
+
+In this experiment, we use a plate with some holes to see the temperature difference in the plate and holes.
+First we will fix the frequency of voltage generator to 1$Hz$ in order to avoid unnecessary external disturbance.
+Before we open IR source, which is a halogen, the infrared image is shown in Figure \ref{fig:holea}.
+We cannot see the holes from the images first. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Before]{\label{fig:holea}
+	\includegraphics[width=0.4\linewidth]{Pictures/holes_cropped.jpg}
+	}
+	\subfigure[After]{\label{fig:holeb}
+	\includegraphics[width=0.403\linewidth]{Pictures/holes2_cropped.jpg}
+	}
+	\caption{Before and after turning on halogen}
+	\label{fig:hole}
+\end{figure}
+
+When we turn on the hologen light, the infrared image is shown in Figure \ref{fig:holeb}. We can easily see the holes and tell that the hole parts have higher temperature than other parts in the plane.
+
 \section{Conclusion}
+We learn several main application of thermography in this lab. First we have knowledge about how to calibrate infrared camera. This is an essential job because only after calibration can we acquire correct images. Second, we study how to measure emissivity coefficient of different metal, reflection of copper and transmission coefficient of glass and PVC. Third, we also have a chance to see different thickness of same material will lead to different temperatures.
+
 \section{References}
-{[}1{]} - C.A 1875, Thermography training bench. http://www.chauvin-arnoux.com/sites/default/files/D00HDX78\_4.PDF\\
+{[}1{]} - C.A 1875, Thermography training bench. http://www.chauvin-arnoux.com/sites/default/files/D00HDX78\
+_4.PDF\\
 {[}2{]} - Tehnical Support. Emissivity in the Infrared. http://www.optotherm.com/emiss-effects.htm\\
 {[}3{]} - Emissivity. https://en.wikipedia.org/wiki/Emissivity
 
