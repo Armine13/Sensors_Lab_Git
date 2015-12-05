@@ -1,0 +1,93 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{float}
+\setlength{\parindent}{0pt}
+\usepackage{amsmath}
+
+
+\begin{document}
+
+\title{Lab 3: Lens \& Lighting\\ -------------------------------- \\ \Large Sensors and Digitization}
+\author{ \ Armine Vardazaryan, Songyou Peng \\ arminevardazaryan@gmail.com, psy920710@gmail.com}
+\date{5rd December 2015}
+
+\maketitle
+
+\section{Introduction}
+This lab offers us a chance to have a insight of lens and light.
+In the first part, we will choose different lens and extension rings, and then talk about the influence on the acquisition.
+The second part is mainly about the observation of some objects under different light source, and do defect detection. 
+
+\section{Lens}
+At the very beginning of this lab, we want to compute the "Spatial Resolution". In the Figure \ref{fig:one}, we try to demonstrate the length of this fork by putting a ruler next to it.
+We can see the length of the pork is about 214 $mm$ and the number of pixels between this length is $(1310 - 40) = 1270$, so we can easily get the spatial resolution as below:
+$$
+resolution = \frac{number of pixels}{length} = \frac{1270}{214} = 5.935\ pixel/mm
+$$
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Pictures/spatial_resolution.png}
+	\caption{Picture for computing spatial resolution}
+	\label{fig:one}
+\end{figure} 
+
+Now we will compute the focal length of the lens to test whether we use a correct lens or not.
+In order to get Figure \ref{fig:one}, our intial working distance is 500$mm$.
+And we know our CCD height and width are 6.6$mm$ and 8.8$mm$ respectively.
+So after applying the formula:
+\begin{align*} 
+	Focal\ length\ of\ the\ height &= \frac{working\ distance * CCD\ height}{Object\ height + CCD\ height}\\
+	&= \frac{500 \times 6.6}{214 + 6.6} \\
+	&= 15.00mm
+\end{align*}
+It turns out we use correct lens because the 16$mm$ length is the closest lens that we have to 15mm.
+\section{Extension Rings}
+In this part, we try various lens and rings in order to observe the influence of extension ring.
+We know that extension ring will get the lens further away from the focal plane, which leads to the decrease of working distance.
+So with an extension ring, you can take a closer picture of your object and include more information and more part of the object.\\
+\\
+First, we try 50$mm$ lens with 5$mm$ ring, image shown in Figure \ref{fig:twoa}.
+At this time, working distance that we measure is 300$mm$.
+When we remove the ring, the image is Figure \ref{fig:twob} and working distance now is 515$mm$. Obviously, more information and bigger fork we get in the Figure \ref{fig:twoa}.
+\begin{figure}[H]
+	\centering
+	\subfigure[Object with 5$mm$ ring]{\label{fig:twoa}
+	\includegraphics[width=0.45\linewidth]{Pictures/ring_50.png}
+	}
+	\subfigure[Object without ring]{\label{fig:twob}
+	\includegraphics[width=0.45\linewidth]{Pictures/without_ring_50.png}
+	}
+	\caption{Object with 50$mm$ lens}
+	\label{fig:two}
+\end{figure}
+
+In another example we use 35$mm$ lens and compare coin images by using different extension rings, which is shown in Figure \ref{fig:three}.
+It is easy to be noticed that the image with 20$mm$ ring contains more information than the one with 5$mm$ ring.\\
+\\
+So, if you want to put the object full of your image, choosing a proper extension ring would be helpful.
+\begin{figure}[H]
+	\centering
+	\subfigure[Object with 5$mm$ ring]{\label{fig:threea}
+	\includegraphics[width=0.45\linewidth]{Pictures/bonus/coin35+5.png}
+	}
+	\subfigure[Object with 20$mm$ ring]{\label{fig:threeb}
+	\includegraphics[width=0.45\linewidth]{Pictures/bonus/35+20_coin.png}
+	}
+	\caption{Object with 35$mm$ lens}
+	\label{fig:three}
+\end{figure}
+
+\section{Lighting}
+
+
+\section{Conclusion}
+
+
+\section{References}
+{[}1{]} - https://photographylife.com/what-is-an-extension-tube
+
+\end{document}
