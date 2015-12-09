@@ -1,15 +1,16 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.1.18)  8 DEC 2015 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  9 DEC 2015 13:54
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,64 +24,69 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texmf-texlive/tex/latex/base/latin9.def
-File: latin9.def 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin9.def
+File: latin9.def 2015/03/17 v1.2c Input encoding file
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
-File: babel.def 2008/07/06 v3.8l Babel common definitions
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
@@ -96,11 +102,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-(/usr/share/texmf-texlive/tex/latex/float/float.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks17
@@ -108,41 +114,41 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen108
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count95
 \leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count97
 \DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count99
 \c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
@@ -163,9 +169,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (./report.aux
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(./report.aux
 
 LaTeX Warning: Label `fig:invlog' multiply defined.
 
@@ -196,7 +203,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen117
@@ -207,78 +214,165 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPscratchCnt=\count109
 \MPscratchDim=\dimen118
 \MPnumerator=\count110
+\makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks25
-) <Pictures/spatial_resolution.png, id=1, 1385.175pt x 1003.75pt>
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<Pictures/spatial_resolution.png, id=1, 1385.175pt x 1003.75pt>
 File: Pictures/spatial_resolution.png Graphic file (type png)
 
-<use Pictures/spatial_resolution.png> [1
+<use Pictures/spatial_resolution.png>
+Package pdftex.def Info: Pictures/spatial_resolution.png used on input line 33.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] <Pictures/ring_50.png, id=
-14, 1385.175pt x 1003.75pt>
+(pdftex.def)             Requested size: 345.0pt x 250.00261pt.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Pictures/ring_50.png, id=15, 1385.175pt x 1003.75pt>
 File: Pictures/ring_50.png Graphic file (type png)
 
 <use Pictures/ring_50.png>
-<Pictures/without_ring_50.png, id=15, 1385.175pt x 1003.75pt>
+Package pdftex.def Info: Pictures/ring_50.png used on input line 60.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
+<Pictures/without_ring_50.png, id=16, 1385.175pt x 1003.75pt>
 File: Pictures/without_ring_50.png Graphic file (type png)
 
 <use Pictures/without_ring_50.png>
+Package pdftex.def Info: Pictures/without_ring_50.png used on input line 63.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--66
 
  []
 
 [2 <./Pictures/spatial_resolution.png>]
-<Pictures/bonus/coin35+5.png, id=19, 1385.175pt x 1003.75pt>
+<Pictures/bonus/coin35+5.png, id=20, 1385.175pt x 1003.75pt>
 File: Pictures/bonus/coin35+5.png Graphic file (type png)
 
 <use Pictures/bonus/coin35+5.png>
-<Pictures/bonus/35+20_coin.png, id=20, 1385.175pt x 1003.75pt>
+Package pdftex.def Info: Pictures/bonus/coin35+5.png used on input line 76.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
+<Pictures/bonus/35+20_coin.png, id=21, 1385.175pt x 1003.75pt>
 File: Pictures/bonus/35+20_coin.png Graphic file (type png)
 
 <use Pictures/bonus/35+20_coin.png>
+Package pdftex.def Info: Pictures/bonus/35+20_coin.png used on input line 79.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 68--82
 
  []
 
-<Pictures/contour/untitled.png, id=21, 1385.175pt x 1003.75pt>
+<Pictures/contour/untitled.png, id=22, 1385.175pt x 1003.75pt>
 File: Pictures/contour/untitled.png Graphic file (type png)
 
 <use Pictures/contour/untitled.png>
+Package pdftex.def Info: Pictures/contour/untitled.png used on input line 93.
+(pdftex.def)             Requested size: 172.5pt x 124.99364pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 86--97
 
  []
 
 [3 <./Pictures/ring_50.png> <./Pictures/without_ring_50.png> <./Pictures/bonus/
 coin35+5.png> <./Pictures/bonus/35+20_coin.png>]
-<Pictures/contour/inv.png, id=27, 1385.175pt x 1003.75pt>
+<Pictures/contour/inv.png, id=28, 1385.175pt x 1003.75pt>
 File: Pictures/contour/inv.png Graphic file (type png)
 
 <use Pictures/contour/inv.png>
-<Pictures/contour/invbin.png, id=28, 1385.175pt x 1003.75pt>
+Package pdftex.def Info: Pictures/contour/inv.png used on input line 103.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
+<Pictures/contour/invbin.png, id=29, 1385.175pt x 1003.75pt>
 File: Pictures/contour/invbin.png Graphic file (type png)
 
 <use Pictures/contour/invbin.png>
-<Pictures/contour/invlog.png, id=29, 1385.175pt x 1003.75pt>
+Package pdftex.def Info: Pictures/contour/invbin.png used on input line 106.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
+<Pictures/contour/invlog.png, id=30, 1385.175pt x 1003.75pt>
 File: Pictures/contour/invlog.png Graphic file (type png)
 
 <use Pictures/contour/invlog.png>
+Package pdftex.def Info: Pictures/contour/invlog.png used on input line 109.
+(pdftex.def)             Requested size: 155.24895pt x 112.4958pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--112
 
  []
 
 [4 <./Pictures/contour/untitled.png>]
-<Pictures/scr/16+5.png, id=34, 1385.175pt x 1003.75pt>
+<Pictures/scr/16+5.png, id=35, 1385.175pt x 1003.75pt>
 File: Pictures/scr/16+5.png Graphic file (type png)
 
 <use Pictures/scr/16+5.png>
-<Pictures/scr/inv16+5.png, id=35, 1385.175pt x 1003.75pt>
+Package pdftex.def Info: Pictures/scr/16+5.png used on input line 123.
+(pdftex.def)             Requested size: 172.5pt x 124.99364pt.
+
+<Pictures/scr/inv16+5.png, id=36, 1385.175pt x 1003.75pt>
 File: Pictures/scr/inv16+5.png Graphic file (type png)
 
-<use Pictures/scr/inv16+5.png> [5 <./Pictures/contour/inv.png> <./Pictures/cont
-our/invbin.png> <./Pictures/contour/invlog.png>]
-<Pictures/bonus/oil_filter_adj.png, id=39, 1385.175pt x 1003.75pt>
+<use Pictures/scr/inv16+5.png>
+Package pdftex.def Info: Pictures/scr/inv16+5.png used on input line 126.
+(pdftex.def)             Requested size: 172.5pt x 124.99364pt.
+ [5 <./Pictures/contour/inv.png> <./Pictures/contour/invbin.png> <./Pictures/co
+ntour/invlog.png>]
+<Pictures/bonus/oil_filter_adj.png, id=40, 1385.175pt x 1003.75pt>
 File: Pictures/bonus/oil_filter_adj.png Graphic file (type png)
 
 <use Pictures/bonus/oil_filter_adj.png>
+Package pdftex.def Info: Pictures/bonus/oil_filter_adj.png used on input line 1
+40.
+(pdftex.def)             Requested size: 207.0021pt x 149.9893pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 133--144
 
  []
@@ -290,8 +384,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 147.
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
@@ -300,13 +394,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<Pictures/bonus/35+5.png, id=44, 1385.175pt x 1003.75pt>
+<Pictures/bonus/35+5.png, id=45, 1385.175pt x 1003.75pt>
 File: Pictures/bonus/35+5.png Graphic file (type png)
 
 <use Pictures/bonus/35+5.png>
-Overfull \hbox (10.49652pt too wide) in paragraph at lines 161--162
+Package pdftex.def Info: Pictures/bonus/35+5.png used on input line 156.
+(pdftex.def)             Requested size: 241.49895pt x 175.00029pt.
+
+Overfull \hbox (1.6098pt too wide) in paragraph at lines 161--162
 []\T1/cmr/m/n/10 To es-ti-mate the price of this imag-ing sys-tem we went on ww
-w.edmundoptics.com,to
+w.edmundoptics.com,
  []
 
 
@@ -320,9 +417,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--165
  []
 
 
-<Pictures/bonus/50+20coin_distance_20mm_adj.png, id=50, 1385.175pt x 1003.75pt>
+<Pictures/bonus/50+20coin_distance_20mm_adj.png, id=51, 1385.175pt x 1003.75pt>
 File: Pictures/bonus/50+20coin_distance_20mm_adj.png Graphic file (type png)
 <use Pictures/bonus/50+20coin_distance_20mm_adj.png>
+Package pdftex.def Info: Pictures/bonus/50+20coin_distance_20mm_adj.png used on
+ input line 172.
+(pdftex.def)             Requested size: 241.49895pt x 175.00029pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
@@ -337,38 +438,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-
-Overfull \hbox (72.3703pt too wide) in paragraph at lines 189--191
-\T1/cmr/m/n/10 [1] - https://photographylife.com/what-is-an-extension-tube [2] 
-- http://www.edmundoptics.com 
- []
-
 [8 <./Pictures/bonus/50+20coin_distance_20mm_adj.png>] [9] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2400 strings out of 495061
- 29368 string characters out of 1182621
- 83824 words of memory out of 3000000
- 5551 multiletter control sequences out of 15000+50000
- 12882 words of font info for 35 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 27i,8n,24p,309b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
-armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/armine/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/armine/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/armine/.texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrm1200.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecrm1440.600pk> </home/armine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
-1728.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (9 pages, 9500610 bytes).
+ 3077 strings out of 493089
+ 41388 string characters out of 6134842
+ 106997 words of memory out of 5000000
+ 6497 multiletter control sequences out of 15000+600000
+ 12882 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,24p,310b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on report.pdf (9 pages, 16688472 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
